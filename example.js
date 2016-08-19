@@ -3,6 +3,8 @@ angular.module('ui.bootstrap.demo').controller('ModalDemoCtrl', function ($scope
 
   $scope.items = ['item1', 'item2', 'item3'];
   $scope.image=['this is an image I need to add'];
+  $scope.imageTwo=['this is another image I need to add'];
+
 
   $scope.animationsEnabled = true;
 
@@ -50,13 +52,37 @@ angular.module('ui.bootstrap.demo').controller('ModalDemoCtrl', function ($scope
     });
   };
 
+// Third modal Code
+
+    $scope.openThree = function (size) {
+
+    var modalInstance = $uibModal.open({
+      animation: $scope.animationsEnabled,
+      templateUrl: 'myModalContent-three.html',
+      controller: 'ModalInstanceCtrl',
+      size: size,
+      resolve: {
+        items: function () {
+          return $scope.imageTwo;
+        }
+      }
+    });
+
+    modalInstance.result.then(function (selectedItem) {
+      $scope.selected = selectedItem;
+    }, function () {
+      $log.info('Modal dismissed at: ' + new Date());
+    });
+  };
+
+
   $scope.toggleAnimation = function () {
     $scope.animationsEnabled = !$scope.animationsEnabled;
   };
 
 });
 
-// Third modal Code
+
 
 // Please note that $uibModalInstance represents a modal window (instance) dependency.
 // It is not the same as the $uibModal service used above.
