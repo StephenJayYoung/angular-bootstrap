@@ -2,6 +2,7 @@ angular.module('ui.bootstrap.demo', ['ngAnimate', 'ui.bootstrap']);
 angular.module('ui.bootstrap.demo').controller('ModalDemoCtrl', function ($scope, $uibModal, $log) {
 
   $scope.items = ['item1', 'item2', 'item3'];
+  $scope.image=['this is an image I need to add'];
 
   $scope.animationsEnabled = true;
 
@@ -37,7 +38,7 @@ angular.module('ui.bootstrap.demo').controller('ModalDemoCtrl', function ($scope
       size: size,
       resolve: {
         items: function () {
-          return $scope.items;
+          return $scope.image;
         }
       }
     });
@@ -54,6 +55,8 @@ angular.module('ui.bootstrap.demo').controller('ModalDemoCtrl', function ($scope
   };
 
 });
+
+// Third modal Code
 
 // Please note that $uibModalInstance represents a modal window (instance) dependency.
 // It is not the same as the $uibModal service used above.
