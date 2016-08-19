@@ -17,14 +17,13 @@
 
 <div class="text-center" style="margin-top: 60px" ng-controller="ModalDemoCtrl">
     <div class="col-lg-4">
-        <img ng-src="{{foodOne.icon}}" />
-        <button type="button" class="btn btn-default" ng-click="open()">Modal One!</button>
+        <img ng-click="open()" ng-src="{{foodOne.icon}}" />
+   </div>
+    <div class="col-lg-4">
+        <img ng-click="openTwo()" ng-src="{{foodTwo.icon}}" />
     </div>
     <div class="col-lg-4">
-        <button type="button" class="btn btn-default" ng-click="openTwo()">Modal Two!</button>
-    </div>
-    <div class="col-lg-4">
-        <button type="button" class="btn btn-default" ng-click="openThree()">Modal Three!</button>
+        <img ng-click="openThree()" ng-src="{{foodThree.icon}}" />
     </div>
 </div>
 
