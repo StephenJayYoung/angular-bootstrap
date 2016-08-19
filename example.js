@@ -13,7 +13,7 @@ angular.module('ui.bootstrap.demo').controller('ModalDemoCtrl', function ($scope
 
     var modalInstance = $uibModal.open({
       animation: $scope.animationsEnabled,
-      templateUrl: 'myModalContent-one.html',
+      templateUrl: 'templates/myModalContent-one.html',
       controller: 'ModalInstanceCtrl',
       size: size,
       resolve: {
@@ -35,7 +35,7 @@ angular.module('ui.bootstrap.demo').controller('ModalDemoCtrl', function ($scope
 
     var modalInstance = $uibModal.open({
       animation: $scope.animationsEnabled,
-      templateUrl: 'myModalContent-two.html',
+      templateUrl: 'templates/myModalContent-two.html',
       controller: 'ModalInstanceCtrl',
       size: size,
       resolve: {
@@ -58,7 +58,7 @@ angular.module('ui.bootstrap.demo').controller('ModalDemoCtrl', function ($scope
 
     var modalInstance = $uibModal.open({
       animation: $scope.animationsEnabled,
-      templateUrl: 'myModalContent-three.html',
+      templateUrl: 'templates/myModalContent-three.html',
       controller: 'ModalInstanceCtrl',
       size: size,
       resolve: {
@@ -81,7 +81,6 @@ angular.module('ui.bootstrap.demo').controller('ModalDemoCtrl', function ($scope
   };
 
 });
-
 
 
 // Please note that $uibModalInstance represents a modal window (instance) dependency.

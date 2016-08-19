@@ -9,62 +9,16 @@
   </head>
   <body>
 
-<div ng-controller="ModalDemoCtrl">
-    <script type="text/ng-template" id="myModalContent-one.html">
-        <div class="modal-header">
-            <h3 class="modal-title">I am a modal!</h3>
-        </div>
-        <div class="modal-body">
-            <ul>
-                <li ng-repeat="item in items">
-                    <a href="#" ng-click="$event.preventDefault(); selected.item = item">{{ item }}</a>
-                </li>
-            </ul>
-            Selected: <b>{{ selected.item }}</b>
-        </div>
-        <div class="modal-footer">
-            <button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
-        </div>
-    </script>
+  <h1 class="text-center">Travel Foods </h1>
 
-    <script type="text/ng-template" id="myModalContent-two.html">
-        <div class="modal-header">
-            <h3 class="modal-title">I am another modal!</h3>
-        </div>
-        <div class="modal-body">
-            <ul>
-                <li ng-repeat="item in items">
-                    <a href="#" ng-click="$event.preventDefault(); selected.item = item">{{ item }}</a>
-                </li>
-            </ul>
-            Selected: <b>{{ selected.item }}</b>
-        </div>
-        <div class="modal-footer">
-            <button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
-        </div>
-    </script>
+<!-- Next steps: add bootstrap columns to buttons, figure out how to add an image above the buttons for each food image -->
+    
 
-    <script type="text/ng-template" id="myModalContent-three.html">
-        <div class="modal-header">
-            <h3 class="modal-title">I am another modal!</h3>
-        </div>
-        <div class="modal-body">
-            <ul>
-                <li ng-repeat="item in items">
-                    <a href="#" ng-click="$event.preventDefault(); selected.item = item">{{ item }}</a>
-                </li>
-            </ul>
-            Selected: <b>{{ selected.item }}</b>
-        </div>
-        <div class="modal-footer">
-            <button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
-        </div>
-    </script>
-
-    <button type="button" class="btn btn-default" ng-click="open()">Open me!</button>
-    <button type="button" class="btn btn-default" ng-click="openTwo()">Open me, too!</button>
-    <button type="button" class="btn btn-default" ng-click="openThree()">Open me, three!</button>
-
+<div class="text-center" style="margin-top: 60px" ng-controller="ModalDemoCtrl">
+    <button type="button" class="btn btn-default" ng-click="open()">Modal One!</button>
+    <button type="button" class="btn btn-default" ng-click="openTwo()">Modal Two!</button>
+    <button type="button" class="btn btn-default" ng-click="openThree()">Modal Three!</button>
 </div>
+
   </body>
 </html>
