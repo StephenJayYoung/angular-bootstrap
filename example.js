@@ -5,6 +5,9 @@ angular.module('ui.bootstrap.demo').controller('ModalDemoCtrl', function ($scope
   $scope.image=['this is an image I need to add'];
   $scope.imageTwo=['this is another image I need to add'];
 
+  $scope.foodOne = {
+    icon:'img/google-image.png'
+  };
 
   $scope.animationsEnabled = true;
 
@@ -100,4 +103,9 @@ angular.module('ui.bootstrap.demo').controller('ModalInstanceCtrl', function ($s
   $scope.cancel = function () {
     $uibModalInstance.dismiss('cancel');
   };
+
 });
+
+
+
+
