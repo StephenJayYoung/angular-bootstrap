@@ -10,7 +10,7 @@ angular.module('ui.bootstrap.demo').controller('ModalDemoCtrl', function ($scope
   };
 
   $scope.foodTwo = {
-    icon:'img/shrimp.jpg'
+    icon:'img/salmon.jpg'
   };
 
   $scope.foodThree = {
