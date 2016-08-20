@@ -1,14 +1,10 @@
 <div class="modal-header">
-    <h3 class="modal-title">I am modal three!</h3>
+    <h3 class="text-center modal-title">Barcelona - El Xampanyet</h3>
 </div>
-<div class="modal-body">
-    <ul>
-        <li ng-repeat="item in items">
-            <a href="#" ng-click="$event.preventDefault(); selected.item = item">{{ item }}</a>
-        </li>
-    </ul>
-    Selected: <b>{{ selected.item }}</b>
+<div class="modal-body text-center">
+    	<img src="img/salmon.jpg" />
+    	<p style= "padding: 10px" class="text-center">This was honestly also one of the best meals I've ever had. Sardines, marinated olives, stuffed red peppers, tuna, and a mini sandwich with cheese on top. Had a beer as well, all for 24 euro.  </p>
 </div>
 <div class="modal-footer">
-    <button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
+    <button class="btn btn-primary" type="button" ng-click="ok()">Close</button>
 </div>
