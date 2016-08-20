@@ -6,15 +6,15 @@ angular.module('ui.bootstrap.demo').controller('ModalDemoCtrl', function ($scope
   $scope.imageTwo=['this is another image I need to add'];
 
   $scope.foodOne = {
-    icon:'img/ocy.jpg'
+    icon:'img/ocy-small.jpg'
   };
 
   $scope.foodTwo = {
-    icon:'img/salmon.jpg'
+    icon:'img/salmon-small.jpg'
   };
 
   $scope.foodThree = {
-    icon:'img/mussels.jpg'
+    icon:'img/mussels-small.jpg'
   };
 
   $scope.animationsEnabled = true;
