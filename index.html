@@ -5,6 +5,9 @@
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.js"></script>
     <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.0.2.js"></script>
     <script src="example.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="alternating-background.js"></script>
+
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 
@@ -18,7 +21,103 @@
   <p class="text-left" style="padding: 25px; font-weight: bold;"><a style="color: red" target="_blank" href="http://youngcreativespace.com/"> by Young Creative Space</a></p>
 </div>
 
+<!-- For the alternating background images -->
+<div class="background-image toggle-image first-image show"></div>
+<div class="background-image toggle-image second-image"></div>
+<div class="background-image toggle-image third-image"></div>
+
+
 <div class="text-center" style="margin-top: 60px" ng-controller="ModalDemoCtrl">
+    <div class="col-md-2">
+        <img ng-click="open()" ng-src="{{foodOne.icon}}" />
+   </div>
+    <div class="col-md-2">
+        <img ng-click="openTwo()" ng-src="{{foodTwo.icon}}" />
+    </div>
+    <div class="col-md-2">
+        <img ng-click="openThree()" ng-src="{{foodThree.icon}}" />
+    </div>
+        <div class="col-md-2">
+        <img ng-click="open()" ng-src="{{foodOne.icon}}" />
+   </div>
+    <div class="col-md-2">
+        <img ng-click="openTwo()" ng-src="{{foodTwo.icon}}" />
+    </div>
+    <div class="col-md-2">
+        <img ng-click="openThree()" ng-src="{{foodThree.icon}}" />
+    </div>
+        <div class="col-md-2">
+        <img ng-click="open()" ng-src="{{foodOne.icon}}" />
+   </div>
+    <div class="col-md-2">
+        <img ng-click="openTwo()" ng-src="{{foodTwo.icon}}" />
+    </div>
+    <div class="col-md-2">
+        <img ng-click="openThree()" ng-src="{{foodThree.icon}}" />
+    </div>
+    <div class="col-md-2">
+        <img ng-click="open()" ng-src="{{foodOne.icon}}" />
+   </div>
+    <div class="col-md-2">
+        <img ng-click="openTwo()" ng-src="{{foodTwo.icon}}" />
+    </div>
+    <div class="col-md-2">
+        <img ng-click="openThree()" ng-src="{{foodThree.icon}}" />
+    </div>
+    <div class="col-md-2">
+        <img ng-click="open()" ng-src="{{foodOne.icon}}" />
+   </div>
+    <div class="col-md-2">
+        <img ng-click="openTwo()" ng-src="{{foodTwo.icon}}" />
+    </div>
+    <div class="col-md-2">
+        <img ng-click="openThree()" ng-src="{{foodThree.icon}}" />
+    </div>
+    <div class="col-md-2">
+        <img ng-click="open()" ng-src="{{foodOne.icon}}" />
+   </div>
+    <div class="col-md-2">
+        <img ng-click="openTwo()" ng-src="{{foodTwo.icon}}" />
+    </div>
+    <div class="col-md-2">
+        <img ng-click="openThree()" ng-src="{{foodThree.icon}}" />
+    </div>
+        <div class="col-md-2">
+        <img ng-click="openThree()" ng-src="{{foodThree.icon}}" />
+    </div>
+    <div class="col-md-2">
+        <img ng-click="open()" ng-src="{{foodOne.icon}}" />
+   </div>
+    <div class="col-md-2">
+        <img ng-click="openTwo()" ng-src="{{foodTwo.icon}}" />
+    </div>
+    <div class="col-md-2">
+        <img ng-click="openThree()" ng-src="{{foodThree.icon}}" />
+    </div>
+    <div class="col-md-2">
+        <img ng-click="open()" ng-src="{{foodOne.icon}}" />
+   </div>
+    <div class="col-md-2">
+        <img ng-click="openTwo()" ng-src="{{foodTwo.icon}}" />
+    </div>
+    <div class="col-md-2">
+        <img ng-click="openThree()" ng-src="{{foodThree.icon}}" />
+    </div>
+        <div class="col-md-2">
+        <img ng-click="openThree()" ng-src="{{foodThree.icon}}" />
+    </div>
+        <div class="col-md-2">
+        <img ng-click="openThree()" ng-src="{{foodThree.icon}}" />
+    </div>
+    <div class="col-md-2">
+        <img ng-click="open()" ng-src="{{foodOne.icon}}" />
+   </div>
+    <div class="col-md-2">
+        <img ng-click="openTwo()" ng-src="{{foodTwo.icon}}" />
+    </div>
+    <div class="col-md-2">
+        <img ng-click="openThree()" ng-src="{{foodThree.icon}}" />
+    </div>
     <div class="col-md-2">
         <img ng-click="open()" ng-src="{{foodOne.icon}}" />
    </div>
