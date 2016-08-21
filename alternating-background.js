@@ -12,6 +12,7 @@ function cycleBackgrounds() {
 		$imageEls.eq(index - 1).removeClass('show');
 
 	}, 5000);
+
 };
 
 // Document Ready.

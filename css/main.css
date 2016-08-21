@@ -7,9 +7,9 @@
 	opacity: .9;
 }
 
-body {
+/*body {
 	background-image: url('../img/copenhagen.jpg');
-}
+}*/
 
 /*For alternating background image*/
 .background-image {
@@ -30,7 +30,7 @@ body {
 
 /* Styles for the specific images. */
 .first-image {
-	background-image: url('http://s169923.gridserver.com/images/dtlarooftop.jpg');	
+	background-image: url('http://naturewallpapers.biz/wp-content/uploads/2012/04/high-quality-nature-background.jpg');	
 	z-index: -3;
 	opacity: 0;
 }
@@ -42,6 +42,24 @@ body {
 }
 
 .third-image {
+	background-image: url('http://s169923.gridserver.com/images/catalinaharbor.jpg');
+	z-index: -1;
+	opacity: 0;
+}
+
+.first-imageTwo {
+	background-image: url('http://s169923.gridserver.com/images/dtlarooftop.jpg');	
+	z-index: -3;
+	opacity: 0;
+}
+
+.second-imageTwo {
+	background-image: url('http://s169923.gridserver.com/images/winterbarrel.jpg');
+	z-index: -2;
+	opacity: 0;
+}
+
+.third-imageTwo {
 	background-image: url('http://s169923.gridserver.com/images/catalinaharbor.jpg');
 	z-index: -1;
 	opacity: 0;
