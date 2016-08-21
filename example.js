@@ -46,19 +46,19 @@ angular.module('ui.bootstrap.demo').controller('ModalDemoCtrl', function ($scope
   };  
 
   $scope.foodEleven = {
-    icon:'img/mussels-small.jpg'
+    icon:'img/rome-small.jpg'
   };  
 
   $scope.foodTwelve = {
-    icon:'img/mussels-small.jpg'
+    icon:'img/paris-two-small.jpg'
   };
 
   $scope.foodThirteen = {
-    icon:'img/mussels-small.jpg'
+    icon:'img/paris-three-small.jpg'
   };
 
   $scope.foodFourteen = {
-    icon:'img/mussels-small.jpg'
+    icon:'img/paris-four-small.jpg'
   };
 
 

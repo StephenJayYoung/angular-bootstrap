@@ -3,8 +3,8 @@
 }
 
 .col-md-2 img{
-	border: 2px solid red;
-	opacity: .9;
+	border: 2px solid #000;
+	opacity: 1;
 }
 
 /*body {
@@ -30,19 +30,19 @@
 
 /* Styles for the specific images. */
 .first-image {
-	background-image: url('http://naturewallpapers.biz/wp-content/uploads/2012/04/high-quality-nature-background.jpg');	
+	background-image: url('../img/copenhagen.jpg');	
 	z-index: -3;
 	opacity: 0;
 }
 
 .second-image {
-	background-image: url('http://s169923.gridserver.com/images/winterbarrel.jpg');
+	background-image: url('../img/paris-background.jpg');
 	z-index: -2;
 	opacity: 0;
 }
 
 .third-image {
-	background-image: url('http://s169923.gridserver.com/images/catalinaharbor.jpg');
+	background-image: url('../img/sansulpecro-background.jpg');
 	z-index: -1;
 	opacity: 0;
 }
